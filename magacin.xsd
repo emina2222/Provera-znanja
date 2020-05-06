@@ -3,9 +3,7 @@
   <xs:simpleType name="nazivType">
     <xs:restriction base="xs:string">
       <xs:minLength value="3"/>
-      <!-- < minimum 3 karaktera > -->
       <xs:maxLength value="30"/>
-      <!-- < maksimum 30 karaktera > -->
     </xs:restriction>
   </xs:simpleType>
 
@@ -45,7 +43,7 @@
 
   <xs:simpleType name="emailType">
     <xs:restriction base="xs:string">
-      <xs:pattern value="\c{5,20}@\c{4,8}.com"></xs:pattern>
+      <xs:pattern value="\c([A-Z0-9]+){3,20}@\c{4,8}.com"></xs:pattern>
     </xs:restriction>
   </xs:simpleType>
 
