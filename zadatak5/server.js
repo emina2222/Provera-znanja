@@ -160,6 +160,9 @@ function sviArtikli(imeKompanije){
             niz.push(a)
         }
     }
+    if(niz.length==0){
+        return artikli;
+    }
     return niz;
 }
 function izmeniArtikal(id,naziv,cena,kompanija){
