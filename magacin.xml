@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<magacin>
+  <artikal>
+    <naziv sifra="P11234">Brisac</naziv>
+    <datumIzrade>
+      <dan>2</dan>
+      <mesec>5</mesec>
+      <godina>2020</godina>
+    </datumIzrade>
+    <cena tip="dinari">5000</cena>
+    <kompanija>
+      <ime>Cepter</ime>
+      <adresa>Mestroviceva 8,Beograd</adresa>
+    </kompanija>
+    <email tip="sluzbeni"></email>
+  </artikal>
+</magacin>
