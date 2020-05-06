@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE magacin SYSTEM "magacin.dtd">
-<magacin>
+<magacin xmlns="http://www.w3schools.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="magacin.xsd">
   <artikal>
     <naziv sifra="P11234">Brisac</naziv>
     <datumIzrade>
