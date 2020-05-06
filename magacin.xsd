@@ -30,7 +30,7 @@
       <xs:extension base="cenaType">
         <xs:attribute name="tip" default="dinari">
           <xs:simpleType>
-            <xs:restriction base="xs:NMTOKEN">
+            <xs:restriction base="xs:string">
               <xs:enumeration value="dinari" />
               <xs:enumeration value="euri" />
             </xs:restriction>
@@ -77,11 +77,6 @@
     </xs:sequence>
   </xs:complexType>
 
-  <xs:simpleType name="adresaT">
-    <xs:restriction base="xs:string">
-    </xs:restriction>
-  </xs:simpleType>
-
 
   <xs:complexType name="artikalType">
     <xs:sequence>
@@ -95,7 +90,7 @@
 
   <xs:complexType name="magacinType">
     <xs:sequence>
-      <xs:element name="artikal" type="artikalType"></xs:element>
+      <xs:element name="artikal" type="artikalType" minOccurs="1"></xs:element>
     </xs:sequence>
   </xs:complexType>
 
